@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" >
+
+<listeners>
+		<listener class-name="TestScripts.CustomListener" />
+	</listeners>
+  <test name="ChromeTest">
+  
+  <parameter name="Sbrowser" value="chrome" />
+    <classes>
+      <class name="TestScripts.FirstTest"/>
+      <class name="TestScripts.SecondTest"/>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

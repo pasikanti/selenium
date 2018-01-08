@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Sbrowser" value="chrome"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="Sbrowser" value="chrome"/>
+    <classes>
+      <class name="TestScripts.FirstTest">
+        <methods>
+          <include name="tc_2"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestScripts.FirstTest -->
+      <class name="TestScripts.SecondTest">
+        <methods>
+          <include name="tc_3"/>
+        </methods>
+      </class> <!-- TestScripts.SecondTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
